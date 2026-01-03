@@ -63,7 +63,7 @@ public class ReflectionTest {
 
         Method methodCallA = classHello.getMethod("callA");
         dynamicCall(methodCallA, target);
-        
+
         Method methodCallB = classHello.getMethod("callB");
         dynamicCall(methodCallB, target);
     }
